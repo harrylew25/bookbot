@@ -5,7 +5,7 @@ def main() -> None:
     word_counts = get_word_count(text)
     dict = get_character_count(text)
     
-    generate_text_dict_report(book_path, word_counts, dict);
+    generate_text_dict_report(book_path, word_counts, dict)
     
 def get_book_text(path):
     with open(path) as f:
